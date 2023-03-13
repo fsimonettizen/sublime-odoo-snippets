@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<img style='display:block;width:100px;height:100px;' id='base64image'
+       src='data:image/jpeg;base64, ${1:base64Data}' />
+]]></content>
+	<tabTrigger>img</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Odoo HTML img</description>
+</snippet>

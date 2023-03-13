@@ -1,0 +1,11 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+self.env['${1:ModelName}'].search([('${2:Field}', '${3:Operator}', '${4:Value}')])
+
+]]></content>
+    <tabTrigger>self.env</tabTrigger>
+    <scope>source.python</scope>
+    <description>Odoo ORM search with model</description>
+</snippet>

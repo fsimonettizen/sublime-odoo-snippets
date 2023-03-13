@@ -1,0 +1,13 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+${1:reference_field_name} = fields.Reference(
+    string='${2:Field Label}',
+    selection=${3:_get_function_fields},
+)$0
+]]></content>
+    <tabTrigger>fields.Reference</tabTrigger>
+    <scope>source.python</scope>
+    <description>reference field (Odoo)</description>
+</snippet>

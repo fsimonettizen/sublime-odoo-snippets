@@ -1,0 +1,10 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+${2:ModelNameVariable}_obj = self.env['${1:ModelName}'].sudo()
+]]></content>
+    <tabTrigger>self.env</tabTrigger>
+    <scope>source.python</scope>
+    <description>Odoo ORM selv.env</description>
+</snippet>

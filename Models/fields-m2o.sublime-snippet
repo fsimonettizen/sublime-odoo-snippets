@@ -1,0 +1,13 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+${1:field_name}_id = fields.Many2one(
+    '${2:source.model.name}',
+    string='${3:Field Label}',
+)$0
+]]></content>
+    <tabTrigger>fields.Many2one</tabTrigger>
+    <scope>source.python</scope>
+    <description>m2o field (Odoo)</description>
+</snippet>

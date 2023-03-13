@@ -1,0 +1,10 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+self.search([('${2:Field}', '${3:Operator}', '${4:Value}')])
+]]></content>
+    <tabTrigger>self</tabTrigger>
+    <scope>source.python</scope>
+    <description>Odoo ORM search</description>
+</snippet>

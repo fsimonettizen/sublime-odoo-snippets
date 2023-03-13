@@ -1,0 +1,11 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+from odoo.addons.waybee_base.tools import util, fiscal
+fiscal.get_cleaned_cnpj_or_cpf(${1:cnpj_cpf})
+]]></content>
+    <tabTrigger>fiscal</tabTrigger>
+    <scope>source.python</scope>
+    <description>Method get_cleaned_cnpj_or_cpf CPF</description>
+</snippet>

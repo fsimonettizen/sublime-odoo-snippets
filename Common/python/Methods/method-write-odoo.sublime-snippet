@@ -1,0 +1,18 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+def write(self, values):
+    """ Update record(s) with new value comes as {values}
+    return True on success, False otherwise
+    :param values: dict of new values to be set
+    :type: dictionary
+    :return: True on success, False otherwise
+    :rtype: Boolean
+    """
+    return super(${1:ModelName}, self).write(values)
+]]></content>
+    <tabTrigger>def</tabTrigger>
+    <scope>source.python</scope>
+    <description>Method write Odoo</description>
+</snippet>

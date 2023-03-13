@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+<record id="${1:view_module}_search" model="ir.ui.view">
+    <field name="name">${2:model}.search</field>
+    <field name="model">${2:model}</field>
+    <field name="arch" type="xml">
+        <search string="${3:String}">
+            <filter name="${4:name}" string="${5:string}" domain="[('${6:field}','${7:=}','${8:value}')]"/>
+            <filter name="${9:name}" string="${9:string}" domain="[]" context="{'group_by' : '${10:field}'}"/>
+        </search>
+    </field>
+</record>
+]]></content>
+    <tabTrigger>search</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Odoo Search</description>
+</snippet>

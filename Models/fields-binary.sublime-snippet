@@ -1,0 +1,13 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+${1:field_name} = fields.Binary(
+    string='${2:Field Label}',
+    attachment=True,
+)$0
+]]></content>
+    <tabTrigger>fields.Binary</tabTrigger>
+    <scope>source.python</scope>
+    <description>binary field (Odoo)</description>
+</snippet>

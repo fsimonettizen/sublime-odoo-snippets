@@ -1,0 +1,11 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+#!/usr/bin/env python
+$0
+]]></content>
+    <tabTrigger>py</tabTrigger>
+    <scope>source.python</scope>
+    <description>Odoo - Python Shebang (Unix/Win/OSX)</description>
+</snippet>

@@ -1,0 +1,11 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+from odoo.addons.waybee_base.tools import util, fiscal
+fiscal.validate_cpf(${1:cnpj_cpf})
+]]></content>
+    <tabTrigger>fiscal</tabTrigger>
+    <scope>source.python</scope>
+    <description>Method Validate CPF</description>
+</snippet>

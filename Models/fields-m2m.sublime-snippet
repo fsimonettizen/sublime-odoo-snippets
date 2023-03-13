@@ -1,0 +1,13 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+${1:field_name}_ids = fields.Many2many(
+    '${2:source.model.name}',
+    string='${3:Field Label}',
+)$0
+]]></content>
+    <tabTrigger>fields.Many2many</tabTrigger>
+    <scope>source.python</scope>
+    <description>m2m field (Odoo)</description>
+</snippet>

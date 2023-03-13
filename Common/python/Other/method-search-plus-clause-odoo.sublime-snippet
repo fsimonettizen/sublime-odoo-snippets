@@ -1,0 +1,17 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+query = """ select mimetype 
+            from ${2:TableName}
+            where res_model = '{res_model}' AND res_id = {res_id}
+            limit 1 """.format(res_model='res.partner',
+                               res_id=student_data.partner_id.id)
+
+${1:SelfOrRequest}.env.cr.execute(query)
+query_data = ${1:SelfOrRequest}.env.cr.dictfetchone()
+]]></content>
+    <tabTrigger>query</tabTrigger>
+    <scope>source.python</scope>
+    <description>Odoo query</description>
+</snippet>

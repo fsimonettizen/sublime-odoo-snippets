@@ -1,0 +1,12 @@
+<!-- Odoo Python Snippets -->
+
+<snippet>
+    <content><![CDATA[
+${1:field_name} = fields.Datetime(
+    string='${2:Field Label}',
+)$0
+]]></content>
+    <tabTrigger>fields.Datetime</tabTrigger>
+    <scope>source.python</scope>
+    <description>datetime field (Odoo)</description>
+</snippet>
